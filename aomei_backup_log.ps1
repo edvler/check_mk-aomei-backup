@@ -1,3 +1,7 @@
+# https://github.com/edvler/check_mk-aomei-backup
+# Matthias Maderer
+
+
 $oneWeek = 604800 # sekunden
 $oneDay = 86400 # sekunden
 
