@@ -1,3 +1,6 @@
+# https://github.com/edvler/check_mk-aomei-backup
+# Matthias Maderer
+
 $check_mk_folder = "C:\admin\backup_aomei\check_mk"
 
 #Backup Disks
