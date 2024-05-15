@@ -33,7 +33,7 @@ foreach ($logentry in $cn.BRLog.Log) {
     }
 
     #Only add, if the job was successfull (return 0) and time is gerater as first log entry
-    if ($jobs[$t]["time"] -lt $logentry.Time -and $jobs[$t]["rc"] -eq "0") {
+    if ($jobs[$t]["time"] -lt $logentry.Time -and $logentry.ResultCode -eq 0) {
         $jobs[$t]["time"] = $logentry.Time
         $jobs[$t]["rc"] = $logentry.ResultCode
         $jobs[$t]["detail"] = $logentry.Detail
